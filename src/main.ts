@@ -129,6 +129,7 @@ ${
   error
     ? `
 **\`stderr:\`**
+<details>
 \`\`\`
 ${error.stderr}
 \`\`\`
@@ -137,6 +138,7 @@ ${error.stderr}
 \`\`\`json
 ${JSON.stringify(error.err)}
 \`\`\`
+</details>
 `
     : ''
 }
